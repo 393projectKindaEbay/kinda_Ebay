@@ -21,5 +21,5 @@ from signup import views as v
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("signup/", v.register_request, name="signup_page"),
-    path("login", v.login_request, name="login")
+    path("login/", v.login_request, name="login")
 ]
