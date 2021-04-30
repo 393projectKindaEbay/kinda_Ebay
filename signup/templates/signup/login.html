@@ -1,0 +1,72 @@
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<!--Register
+<div class="container py-5">
+    <h1>Register</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ register_form|crispy }}
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+    <p class="text-center">If you already have an account, <a href="/login">login</a> instead.</p>
+
+    <div>
+        {% for message in messages %}
+        <h3> {{message}} </h3>
+        {% endfor %}
+    </div>
+
+    <div>
+        <h3> {{ form.errors }} </h3>
+    </div>
+</div>
+
+
+{% endblock %}
+-->
+
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="login">
+    <div class="row">
+      <h2>Sign Up</h2>
+      <div class="col-md-12">
+        <form method="POST">
+          {% csrf_token %}
+          {{ login_form|crispy }}
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+        <p class="text-center">Don't have an account? <a href="/register">Create an account</a>.</p>
+      </div>
+    </div>
+    <div>
+      {% for message in messages %}
+      <h3> {{message}} </h3>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
