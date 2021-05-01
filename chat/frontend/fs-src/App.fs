@@ -224,7 +224,7 @@ let sendMessageReadMessage (sock: WebSocket) (user_pk: string) (message_id: int6
     ]
     sock.send (msgTypeEncoder MessageTypes.MessageRead data)
 
-let backendUrl = "http://127.0.0.1:8000"
+let backendUrl = "http://0.0.0.0:8000"
 let messagesEndpoint = sprintf "%/chat/messages/" backendUrl
 let dialogsEndpoint = sprintf "%s/chat/dialogs/" backendUrl
 let selfEndpoint = sprintf "%s/chat/self/" backendUrl
