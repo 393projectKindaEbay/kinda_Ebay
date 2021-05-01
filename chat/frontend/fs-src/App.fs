@@ -224,13 +224,13 @@ let sendMessageReadMessage (sock: WebSocket) (user_pk: string) (message_id: int6
     ]
     sock.send (msgTypeEncoder MessageTypes.MessageRead data)
 
-let backendUrl = "http://0.0.0.0:8000"
-let messagesEndpoint = sprintf "%/chat/messages/" backendUrl
-let dialogsEndpoint = sprintf "%s/chat/dialogs/" backendUrl
-let selfEndpoint = sprintf "%s/chat/self/" backendUrl
-let usersEndpoint = sprintf "%s/chat/users/" backendUrl
+let backendUrl = "http://127.0.0.1:8000"
+let messagesEndpoint = sprintf "%/messages/" backendUrl
+let dialogsEndpoint = sprintf "%s/dialogs/" backendUrl
+let selfEndpoint = sprintf "%s/self/" backendUrl
+let usersEndpoint = sprintf "%s/users/" backendUrl
 
-let uploadEndpoint = sprintf "%s/chat/upload/" backendUrl
+let uploadEndpoint = sprintf "%s/upload/" backendUrl
 
 
 let uploadFile (f: FileList) (csrfToken: string) =

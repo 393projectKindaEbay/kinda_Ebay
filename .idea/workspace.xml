@@ -26,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/chat" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -167,7 +170,7 @@
       <workItem from="1619829041373" duration="701000" />
       <workItem from="1619832779474" duration="557000" />
       <workItem from="1619833420034" duration="7121000" />
-      <workItem from="1619848016488" duration="6129000" />
+      <workItem from="1619848016488" duration="6718000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -225,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619853944934</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix host issue again, should send and receive message properly">
+      <created>1619854267457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619854267457</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
