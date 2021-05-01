@@ -26,7 +26,7 @@ source venv/bin/activate
 		
 ```bash
 python manage.py migrate
-python manage.py loaddata example/fixtures/db.json
+python manage.py loaddata chat/fixtures/db.json
 ```
 		
 6. Run the server
