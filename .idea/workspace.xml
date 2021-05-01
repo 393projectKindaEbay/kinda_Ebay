@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="fix minor mistake in requirements.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +159,7 @@
       <workItem from="1619821285498" duration="6036000" />
       <workItem from="1619829041373" duration="701000" />
       <workItem from="1619832779474" duration="557000" />
-      <workItem from="1619833420034" duration="6984000" />
+      <workItem from="1619833420034" duration="7121000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -191,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619845511787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix minor mistake in requirements.txt">
+      <created>1619846019389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619846019389</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix minor mistake in requirements.txt">
+      <created>1619846052548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619846052548</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +243,8 @@
     <MESSAGE value="update uncommited files" />
     <MESSAGE value="play with the chat app" />
     <MESSAGE value="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface" />
+    <MESSAGE value="fix minor mistake in requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix minor mistake in requirements.txt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
