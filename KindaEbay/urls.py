@@ -17,9 +17,13 @@ from django.contrib import admin
 from django.conf.urls import url
 from django.urls import path
 from signup import views as v
+from django_private_chat2 import urls as chat_urls
+from django.conf.urls import include
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("signup/", v.register_request, name="signup_page"),
-    path("login/", v.login_request, name="login")
+    path("login/", v.login_request, name="login"),
+    url(r'^', include(chat_urls)),
 ]

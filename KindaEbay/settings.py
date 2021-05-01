@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'signup.apps.SignupConfig',
+    'django_private_chat2.apps.DjangoPrivateChat2Config',
+
 ]
 
 MIDDLEWARE = [
@@ -56,7 +58,7 @@ ROOT_URLCONF = 'KindaEbay.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,3 +127,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,  '/static/')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CHAT_WS_SERVER_HOST = 'localhost'
+CHAT_WS_SERVER_PORT = 5002
+CHAT_WS_SERVER_PROTOCOL = 'ws'
