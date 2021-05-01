@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="update uncommited files">
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="play with the chat app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/templates/signup/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/templates/signup/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/frontend/fs-src/App.fs" beforeDir="false" afterPath="$PROJECT_DIR$/chat/frontend/fs-src/App.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,6 +45,17 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/signup/templates/signup/signup.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/templates/signup/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/wsgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rp9Sy1l2t9tX8eqDO8izfvL3lX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,20 +81,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\signup\static\css" />
+      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering" />
+      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\templates" />
       <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\signup\templates\signup" />
+      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\signup\static\css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,6 +164,11 @@
       <workItem from="1619720482809" duration="24199000" />
       <workItem from="1619761258634" duration="1752000" />
       <workItem from="1619763032577" duration="440000" />
+      <workItem from="1619820590076" duration="672000" />
+      <workItem from="1619821285498" duration="6036000" />
+      <workItem from="1619829041373" duration="701000" />
+      <workItem from="1619832779474" duration="557000" />
+      <workItem from="1619833420034" duration="6262000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -159,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619761812338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="play with the chat app">
+      <created>1619835104223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619835104223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-- finish signup and login&#10;-- function perform normally, the html style can be improved." />
     <MESSAGE value="update uncommited files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update uncommited files" />
+    <MESSAGE value="play with the chat app" />
+    <option name="LAST_COMMIT_MESSAGE" value="play with the chat app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

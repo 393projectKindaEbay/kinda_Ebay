@@ -12,5 +12,14 @@ import os
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'KindaEbay.settings')
-
 application = get_asgi_application()
+
+from channels.routing import ProtocolTypeRouter, URLRouter
+from channels.auth import AuthMiddlewareStack
+from django_private_chat2 import urls
+application = ProtocolTypeRouter({
+    "http": application,
+    "websocket": AuthMiddlewareStack(
+        URLRouter(urls.websocket_urlpatterns)
+    ),
+})

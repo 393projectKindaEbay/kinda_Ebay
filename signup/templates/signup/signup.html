@@ -1,32 +1,7 @@
-{% block content %}
 
 {% load crispy_forms_tags %}
 
-<!--Register
-<div class="container py-5">
-    <h1>Register</h1>
-    <form method="POST">
-        {% csrf_token %}
-        {{ register_form|crispy }}
-        {{ form.non_field_errors }}
-        <button class="btn btn-primary" type="submit">Register</button>
-    </form>
-    <p class="text-center">If you already have an account, <a href="/login">login</a> instead.</p>
 
-    <div>
-        {% for message in messages %}
-        <h3> {{message}} </h3>
-        {% endfor %}
-    </div>
-
-    <div>
-        <h3> {{ form.errors }} </h3>
-    </div>
-</div>
-
-
-{% endblock %}
--->
 
 <html lang="pt-br">
 
@@ -46,18 +21,18 @@
     <div class="login">
         <div class="row">
             <h2>Sign Up</h2>
+            {% block content %}
             <form method="POST">
                 {% csrf_token %}
                 {{ register_form|crispy }}
                 <div class="col-md-6">
                     <button class="btn btn-primary" type="submit">Register</button>
                 </div>
-
-
             </form>
             <div class="col-md-6">
                 <button class="btn btn-primary" type="submit" onclick="document.location.href='/login'">login
                 </button>
+            {% endblock %}
 
             </div>
             <div>
