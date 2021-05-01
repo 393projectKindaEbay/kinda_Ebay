@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="fix bug in host">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/templates/signup/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/templates/signup/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/signup/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="fix host issue again, should send and receive message properly" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +20,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/chat" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -61,6 +59,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -84,15 +83,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,7 +164,8 @@
       <workItem from="1619829041373" duration="701000" />
       <workItem from="1619832779474" duration="557000" />
       <workItem from="1619833420034" duration="7121000" />
-      <workItem from="1619848016488" duration="5791000" />
+      <workItem from="1619848016488" duration="6718000" />
+      <workItem from="1619854915876" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -218,7 +216,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619848139142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix host issue again, should send and receive message properly">
+      <created>1619853944934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619853944934</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix host issue again, should send and receive message properly">
+      <created>1619854267457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619854267457</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix host issue again, should send and receive message properly">
+      <created>1619854925454</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619854925454</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +259,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -260,7 +279,8 @@
     <MESSAGE value="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface" />
     <MESSAGE value="fix minor mistake in requirements.txt" />
     <MESSAGE value="fix bug in host" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug in host" />
+    <MESSAGE value="fix host issue again, should send and receive message properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix host issue again, should send and receive message properly" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
