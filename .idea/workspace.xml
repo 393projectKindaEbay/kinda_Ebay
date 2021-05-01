@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="play with the chat app">
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KindaEbay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/frontend/fs-src/App.fs" beforeDir="false" afterPath="$PROJECT_DIR$/chat/frontend/fs-src/App.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +161,7 @@
       <workItem from="1619821285498" duration="6036000" />
       <workItem from="1619829041373" duration="701000" />
       <workItem from="1619832779474" duration="557000" />
-      <workItem from="1619833420034" duration="6262000" />
+      <workItem from="1619833420034" duration="6984000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -191,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619835104223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface">
+      <created>1619845511787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619845511787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +230,8 @@
     <MESSAGE value="-- finish signup and login&#10;-- function perform normally, the html style can be improved." />
     <MESSAGE value="update uncommited files" />
     <MESSAGE value="play with the chat app" />
-    <option name="LAST_COMMIT_MESSAGE" value="play with the chat app" />
+    <MESSAGE value="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish the chat app&#10;-- todo&#10;add function call from outer urls to add a new chat to the user interface" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
