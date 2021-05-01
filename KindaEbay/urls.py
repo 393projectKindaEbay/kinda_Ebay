@@ -28,9 +28,6 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.http import JsonResponse
 from django.contrib.auth.models import AbstractBaseUser
-#123
-from pages.views import home_view, about_view, commodities_view
-from products.views import product_detail_view, product_create_view
 
 from typing import List
 
@@ -60,11 +57,5 @@ urlpatterns = [
     url(r'', include('django_private_chat2.urls', namespace='django_private_chat2')),
     path('users/', UsersListView.as_view(), name='users_list'),
     path('chat/', login_required(TemplateView.as_view(template_name='base.html')), name='home'),
-    #123
-    path('', home_view, name = 'home'),
-    path('about/', about_view),
-    path('commodities/', commodities_view),
-    path('product/', product_detail_view),
-    path('create/', product_create_view),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
