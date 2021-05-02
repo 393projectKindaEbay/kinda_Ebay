@@ -120,15 +120,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 # Collect static files here
-STATIC_ROOT = join(BASE_DIR, 'run', 'static_root')
+STATIC_ROOT = join(BASE_DIR,  'static_root')
 
 # Collect media files here
-MEDIA_ROOT = join(BASE_DIR, 'run', 'media_root')
+MEDIA_ROOT = join(BASE_DIR, 'media_root')
 MEDIA_URL = '/media/'
 
 # look for static assets here
 STATICFILES_DIRS = [
-    join(BASE_DIR, 'chat', 'static'),
+    join(BASE_DIR,  'static'),
 ]
 
 STATIC_URL = '/static/'
@@ -140,42 +140,12 @@ ALLOWED_HOSTS = ['*']
 ASGI_APPLICATION = 'chat.chat.routing.application'
 
 
-# Uncomment this to try out RabbitMQ layer - install channels_rabbitmq>=3.0.0 first
-# CHANNEL_LAYERS = {
-#     "default": {
-#         "BACKEND": "channels_rabbitmq.core.RabbitmqChannelLayer",
-#         "CONFIG": {
-#             "host": "amqp://guest:guest@127.0.0.1:5672/",
-#         },
-#     },
-# }
-
 
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer'
     }
 }
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-    },
-    'loggers': {
-        'django.db.backends': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-        }
-    },
-    # Uncomment this to view django_private_chat2's logs
 
-    # 'root': {
-    #     'handlers': ['console'],
-    #     'level': 'INFO',
-    # },
-}
-STATIC_ROOT = os.path.join(BASE_DIR,  '/static/')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGOUT_REDIRECT_URL = ""

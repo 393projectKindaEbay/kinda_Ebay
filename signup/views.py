@@ -2,7 +2,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.http.response import HttpResponseRedirect
 from django.shortcuts import render, redirect
 from .forms import NewUserForm
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.contrib import messages
 
 
@@ -35,7 +35,7 @@ def login_request(request):
                 login(request, user)
                 messages.info(request, f"You are now logged in as {username}.")
                 if next == "":
-                    return HttpResponseRedirect('/main/')
+                    return HttpResponseRedirect('/')
                 else:
                     return HttpResponseRedirect(next)
             else:
@@ -44,3 +44,12 @@ def login_request(request):
             messages.error(request, "Invalid username or password.")
     form = AuthenticationForm()
     return render(request=request, template_name="signup/login.html", context={"login_form": form})
+
+
+def logout_request(request):
+    logout(request)
+    messages.info(request, "Logged out successfully!")
+    if next == "":
+        return HttpResponseRedirect('/')
+    else:
+        return HttpResponseRedirect(next)

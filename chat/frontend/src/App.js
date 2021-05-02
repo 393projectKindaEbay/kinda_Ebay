@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import 'react-chat-elements/dist/main.css';
+import 'react-chat-elements/dist/chat.css';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import {ToastContainer, toast} from 'react-toastify';
