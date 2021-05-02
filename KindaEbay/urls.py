@@ -30,7 +30,7 @@ from django.http import JsonResponse
 from django.contrib.auth.models import AbstractBaseUser
 #123
 from pages.views import home_view, about_view, commodities_view
-from products.views import product_detail_view, product_create_view
+from products.views import product_detail_view, product_create_view, product_list_view
 
 from typing import List
 
@@ -66,5 +66,6 @@ urlpatterns = [
     path('commodities/', commodities_view),
     path('product/', product_detail_view),
     path('create/', product_create_view),
+    path('home/', product_list_view)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
