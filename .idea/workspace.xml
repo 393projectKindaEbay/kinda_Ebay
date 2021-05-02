@@ -4,15 +4,286 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="add logout template and view, correct the static files location">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/flag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/flag.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/flag.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/flag.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/rating.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/rating.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/zmd.hierarchical-display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/zmd.hierarchical-display.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/zmd.hierarchical-display.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/zmd.hierarchical-display.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.min.css:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.eot:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.ttf:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff2:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.eot:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.ttf:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff2:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.eot:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.ttf:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff2:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.eot:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.ttf:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff2:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.eot:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.ttf:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff2:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/flags.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/default-skin.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/default-skin.svg:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lightbox/preloader.gif:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/01.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/02.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/03.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/04.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/05.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/06.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/07.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/08.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/overlays/09.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/sample.jpg:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/arrow_left.svg:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/arrow_right.svg:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/svg/flags.png:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/imagesloaded.pkgd.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/masonry.pkgd.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/progressBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/progressBar.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/progressBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/progressBar.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/rating.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/rating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/rating.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.1.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/bs-custom-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/bs-custom-file-input.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/chart.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/default-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/default-file-input.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/enhanced-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/enhanced-modals.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/forms-free.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/jquery.easing.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/scrolling-navbar.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/treeview.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/waves.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/wow.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-skin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-skin.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-styles.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/_custom-variables.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_datatables-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_datatables-select.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_datatables.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_directives.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_directives.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_flags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_flags.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_hierarchical-display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_hierarchical-display.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/addons/_rating.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_colors.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_global.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_helpers.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_masks.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_mixins.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_typography.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_variables.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/_waves.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_functions.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_rfs.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/core/bootstrap/_variables.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_animations-basic.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_badges.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_buttons.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_cards.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_carousels.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_depreciated.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_dropdowns.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_footers.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_forms.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_input-group.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_list-group.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_loader.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_modals.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_msc.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_navbars.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_pagination.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_steppers.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_switch.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_tables.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_treeview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/_treeview.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/_module.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/animations-extended.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/mdb.lite.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/mdb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/mdb.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scss/style.scss:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home-page.html:Zone.Identifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product-page.html:Zone.Identifier" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/migrations/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +321,26 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/chat/templates/base.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/urls.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/templates/signup/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/frontend/fs-src/App.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/templates/signup/signup.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/settings.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/frontend/fs-src/App.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/templates/base.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/wsgi.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rp9Sy1l2t9tX8eqDO8izfvL3lX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,17 +371,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="python manage.py startapp signup" type="PythonConfigurationType" factoryName="Python">
       <module name="KindaEbay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,7 +557,9 @@
     <MESSAGE value="fix minor mistake in requirements.txt" />
     <MESSAGE value="fix bug in host" />
     <MESSAGE value="fix host issue again, should send and receive message properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix host issue again, should send and receive message properly" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
