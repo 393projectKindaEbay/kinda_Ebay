@@ -3,12 +3,10 @@
   <component name="dataSourceStorageLocal" created-in="PY-211.7142.13">
     <data-source name="db" uuid="0e82bfbc-5dd1-4b20-a51f-ca13745c72aa">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
-      <auth-provider>no-auth</auth-provider>
       <schema-mapping />
     </data-source>
     <data-source name="Django default" uuid="1a492b4d-3bd5-4e11-9998-bab529c1122f">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
-      <auth-provider>no-auth</auth-provider>
       <schema-mapping />
     </data-source>
   </component>

@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     # 3rd party
     'channels',
     'django_extensions',
+    'products',
+    'pages',
+    'chat',
 ]
 
 MIDDLEWARE = [

@@ -60,7 +60,7 @@ urlpatterns = [
     path("logout", v.logout_request, name='logout'),
     url(r'', include('django_private_chat2.urls', namespace='django_private_chat2')),
     path('users/', UsersListView.as_view(), name='users_list'),
-    path('chat/', login_required(TemplateView.as_view(template_name='base.html')), name='home'),
+    path('chat/', login_required(TemplateView.as_view(template_name='chat.html')), name='home'),
     #123
     path('', home_view, name = 'home'),
     path('about/', about_view),
