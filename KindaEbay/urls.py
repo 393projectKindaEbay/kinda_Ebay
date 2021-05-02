@@ -54,6 +54,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("signup/", v.register_request, name="signup_page"),
     path("login/", v.login_request, name="login"),
+    path("logout", v.logout_request, name='logout'),
     url(r'', include('django_private_chat2.urls', namespace='django_private_chat2')),
     path('users/', UsersListView.as_view(), name='users_list'),
     path('chat/', login_required(TemplateView.as_view(template_name='base.html')), name='home'),

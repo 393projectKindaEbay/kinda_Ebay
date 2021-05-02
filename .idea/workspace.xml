@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="fix host issue again, should send and receive message properly">
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="remove unnecessary comments">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KindaEbay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/static/static/media/bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/templates/signup/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/templates/signup/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/templates/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/templates/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/signup/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/chat" />
+    <option name="BRANCH" value="origin/shoppinglist" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -45,20 +54,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/signup/templates/signup/signup.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/static/js/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/templates/base.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KindaEbay/wsgi.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/urls.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chat/frontend/fs-src/App.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KindaEbay/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/templates/signup/login.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/templates/signup/signup.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/templates/signup/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/wsgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rp9Sy1l2t9tX8eqDO8izfvL3lX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,13 +85,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.23921888" />
     <property name="project.structure.side.proportion" value="0.1718213" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,6 +102,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="python manage.py startapp signup" type="PythonConfigurationType" factoryName="Python">
       <module name="KindaEbay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +187,7 @@
       <workItem from="1619854915876" duration="749000" />
       <workItem from="1619856292626" duration="574000" />
       <workItem from="1619896740582" duration="1320000" />
+      <workItem from="1619976502218" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -244,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619855537113</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="remove unnecessary comments">
+      <created>1619976635980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619976635980</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,17 +288,6 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -287,7 +305,8 @@
     <MESSAGE value="fix minor mistake in requirements.txt" />
     <MESSAGE value="fix bug in host" />
     <MESSAGE value="fix host issue again, should send and receive message properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix host issue again, should send and receive message properly" />
+    <MESSAGE value="remove unnecessary comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary comments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

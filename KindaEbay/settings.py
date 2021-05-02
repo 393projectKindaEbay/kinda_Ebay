@@ -120,15 +120,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 # Collect static files here
-STATIC_ROOT = join(BASE_DIR, 'run', 'static_root')
+STATIC_ROOT = join(BASE_DIR,  'static_root')
 
 # Collect media files here
-MEDIA_ROOT = join(BASE_DIR, 'run', 'media_root')
+MEDIA_ROOT = join(BASE_DIR, 'media_root')
 MEDIA_URL = '/media/'
 
 # look for static assets here
 STATICFILES_DIRS = [
-    join(BASE_DIR, 'chat', 'static'),
+    join(BASE_DIR,  'static'),
 ]
 
 STATIC_URL = '/static/'
@@ -146,21 +146,6 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels.layers.InMemoryChannelLayer'
     }
 }
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-    },
-    'loggers': {
-        'django.db.backends': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-        }
-    },
 
-}
-STATIC_ROOT = os.path.join(BASE_DIR,  '/static/')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGOUT_REDIRECT_URL = ""
