@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="try to merge">
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/commodities.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="merging">
+      <change afterPath="$PROJECT_DIR$/chat/frontend/src/bg.jp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/product_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/frontend/src/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/templates/chat/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/templates/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static/media/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/media/bg.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/chat/templates/chat/chat.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/templates/chat.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
@@ -99,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\chat\templates" />
       <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\chat\templates\chat" />
       <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering" />
       <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\templates" />
       <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\signup\templates\signup" />
-      <recent name="\\wsl$\Ubuntu\home\ubuntu_nick\project\393_software_enginering\signup\static\css" />
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
@@ -192,6 +190,7 @@
       <workItem from="1619833420034" duration="7121000" />
       <workItem from="1619848016488" duration="6718000" />
       <workItem from="1619854915876" duration="319000" />
+      <workItem from="1619988727021" duration="6101000" />
     </task>
     <task id="LOCAL-00001" summary="-- finish signup and login&#10;-- function perform normally, the html style can be improved.">
       <created>1619761060308</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619854925454</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="merging">
+      <created>1619988750789</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619988750789</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,8 @@
     <MESSAGE value="fix host issue again, should send and receive message properly" />
     <MESSAGE value="test" />
     <MESSAGE value="try to merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to merge" />
+    <MESSAGE value="merging" />
+    <option name="LAST_COMMIT_MESSAGE" value="merging" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
