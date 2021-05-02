@@ -140,16 +140,6 @@ ALLOWED_HOSTS = ['*']
 ASGI_APPLICATION = 'chat.chat.routing.application'
 
 
-# Uncomment this to try out RabbitMQ layer - install channels_rabbitmq>=3.0.0 first
-# CHANNEL_LAYERS = {
-#     "default": {
-#         "BACKEND": "channels_rabbitmq.core.RabbitmqChannelLayer",
-#         "CONFIG": {
-#             "host": "amqp://guest:guest@127.0.0.1:5672/",
-#         },
-#     },
-# }
-
 
 CHANNEL_LAYERS = {
     'default': {
@@ -170,12 +160,7 @@ LOGGING = {
             'handlers': ['console'],
         }
     },
-    # Uncomment this to view django_private_chat2's logs
 
-    # 'root': {
-    #     'handlers': ['console'],
-    #     'level': 'INFO',
-    # },
 }
 STATIC_ROOT = os.path.join(BASE_DIR,  '/static/')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
