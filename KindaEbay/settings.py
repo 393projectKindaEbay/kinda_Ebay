@@ -131,7 +131,7 @@ MEDIA_URL = '/media/'
 
 # look for static assets here
 STATICFILES_DIRS = [
-    join(BASE_DIR, 'chat', 'static'),
+    join(BASE_DIR, 'static'),
 ]
 
 STATIC_URL = '/static/'
