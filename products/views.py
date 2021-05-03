@@ -10,7 +10,7 @@ def product_detail_view(request, *args, **kwargs):
     context = {
         'object': obj
     }
-    return render(request, "products/product_detail.html", context)
+    return render(request, "products/product-page.html", context)
 
 
 def product_list_view(request, *args, **kwargs):
