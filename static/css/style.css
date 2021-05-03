@@ -1,23 +1,22 @@
-/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
-html,
-body,
-.view {
-  height: 100%; }
+body {
+  background-color: #eee!important;
+}
 
-/* Half Page Carousel itself*/
-.carousel {
-  height: 50%; }
-  .carousel .carousel-inner {
-    height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
+.login {
+  background-color: #fff;
+  width: 40%;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 5px solid #009688;
+  box-shadow: 0px 0px 0px 0px #3f51b5;
+}
 
-/* Adjustment for mobile devices*/
-@media (max-width: 776px) {
-  .carousel {
-    height: 100%; } }
+.login>.row>h2 {
+  margin: auto;
+}
 
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #929FBA; }
+.btn-form {
+  width: 100%;
+  margin-top: 20px;
+}

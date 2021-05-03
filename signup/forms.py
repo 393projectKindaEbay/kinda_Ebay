@@ -16,7 +16,7 @@ class NewUserForm(UserCreationForm):
     def clean_email(self):
         original_email = self.cleaned_data.get('email')
         if not original_email.endswith('case.edu'):
-            raise forms.ValidationError("Only .edu email addresses allowed")
+            raise forms.ValidationError("Only @case.edu email addresses are allowed")
 
 
         return original_email
