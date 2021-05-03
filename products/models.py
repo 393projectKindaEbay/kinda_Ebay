@@ -9,9 +9,8 @@ CATEGORY_CHOICES = (
 )
 
 LABLE_CHOICES = (
-    ('P', 'primary'),
-    ('S', 'secondary'),
-    ('D', 'danger')
+    ('N', 'New'),
+    ('S', 'Sold')
 )
 
 # Create your models here.

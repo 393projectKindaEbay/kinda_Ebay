@@ -31,5 +31,3 @@ def product_create_view(request, *args, **kwargs):
     return render(request=request, template_name="products/product_create.html", context={"form": form})
 
 
-def success(request):
-    return HttpResponse('successfully uploaded')
