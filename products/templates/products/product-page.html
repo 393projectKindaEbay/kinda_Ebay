@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="mt-5 pt-4" xmlns="http://www.w3.org/1999/html">
+    <div class="container dark-grey-text mt-5">
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+            <!--Grid column-->
+            <!--Grid column-->
+            <!--Grid column-->
+
+            <div class="col-md-6 mb-4">
+                <img src="{{ product.Product_Main_Img.url}}" class="img-fluid" alt="">
+            </div>
+            <div>
+
+            </div>
+            <div class="mb-3">
+
+                <div>
+                    <span class="badge badge-pill red mr-1">{{ product.get_label_display }}</span>
+                    <span style="color:black;font-size:40px;">{{ product.title }}</span><br/>
+
+                </div>
+                <p>${{ product.price }}</p>
+                <p>posted by {{ product.publisher }}, at {{ product.publish_time }}</p>
+                <p class="lead">
+            <span class="mr-1">
+            </span>
+                <p class="lead font-weight-bold">Description:</p>
+                <p>{{ product.description }}</p>
+                <form class="d-flex justify-content-left">
+            </div>
+        </div>
+    </div>
+    <!--Content-->
+    </div>
+    <!--Grid column-->
+    </div>
+    <!--Grid row-->
+    <hr>
+    <!--Grid row-->
+    <div class="row d-flex justify-content-center wow fadeIn">
+        <!--Grid column-->
+        <div class="col-md-6 text-center">
+            <p>created in Cleveland with love</p>
+        </div>
+        <!--Grid column-->
+    </div>
+    <!--Grid row-->
+    <!--Grid row-->
+    <!--Grid row-->
+    </div>
+</main>
+{% endblock content %}

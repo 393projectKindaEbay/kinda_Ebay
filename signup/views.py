@@ -48,8 +48,4 @@ def login_request(request):
 
 def logout_request(request):
     logout(request)
-    messages.info(request, "Logged out successfully!")
-    if next == "":
-        return HttpResponseRedirect('/')
-    else:
-        return HttpResponseRedirect(next)
+    return render(request, "signup/logout.html")
