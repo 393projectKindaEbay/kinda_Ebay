@@ -63,9 +63,9 @@ urlpatterns = [
     path('chat/', login_required(TemplateView.as_view(template_name='chat.html')), name='home'),
     #123
     path('', product_list_view, name = 'home'),
-    path('product/', product_detail_view),
     path('create/', product_create_view),
-    path('home/', product_list_view)
+    path('home/', product_list_view),
+    path('product/<int:productid>/', product_detail_view),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

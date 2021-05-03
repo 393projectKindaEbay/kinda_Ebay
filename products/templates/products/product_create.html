@@ -1,4 +1,3 @@
-
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
 
@@ -11,7 +10,7 @@
     <title>upload a new second hand commodity</title>
 </head>
 <body>
-    <form method = "post" enctype="multipart/form-data">
+    <form method = "post" enctype="multipart/form-data" ALIGN='center'>
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Upload</button>
