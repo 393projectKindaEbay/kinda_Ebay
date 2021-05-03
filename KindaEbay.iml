@@ -18,6 +18,11 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/KindaEbay" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/signup" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/media_root" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/products" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/static" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="3.8 @ Ubuntu" jdkType="Python SDK" />

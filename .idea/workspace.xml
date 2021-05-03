@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="merging">
-      <change afterPath="$PROJECT_DIR$/chat/frontend/src/bg.jp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/templates/products/product_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/templates/products/product_detail.html" afterDir="false" />
+    <list default="true" id="e8a0cf36-7b6f-4cdd-937a-8aea90db5aee" name="Default Changelist" comment="try to merge">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KindaEbay/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/frontend/src/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/templates/chat/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/templates/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KindaEbay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KindaEbay.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/static/media/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/static/media/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/product-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/product-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/signup/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +52,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/chat/templates/chat.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/templates/signup/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/static/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/signup/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/frontend/fs-src/App.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/signup/templates/signup/signup.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/settings.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/urls.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KindaEbay/asgi.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/frontend/fs-src/App.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KindaEbay/wsgi.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rp9Sy1l2t9tX8eqDO8izfvL3lX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,15 +101,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.python manage.py startapp signup">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

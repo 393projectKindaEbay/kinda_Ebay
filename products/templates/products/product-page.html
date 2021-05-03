@@ -17,8 +17,9 @@
             <div class="mb-3">
 
                 <div>
-                    <span class="badge badge-pill red mr-1">{{ product.get_label_display }}</span>
-                    <span style="color:black;font-size:40px;">{{ product.title }}</span><br/>
+
+                    <span style="color:black;font-size:40px;">{{ product.title }}</span>
+                    <p class="badge badge-pill red mr-1">{{ product.get_label_display }}</p>
 
                 </div>
                 <p>${{ product.price }}</p>
