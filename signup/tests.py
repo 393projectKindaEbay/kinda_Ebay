@@ -34,6 +34,7 @@ class TestDataMixin:
 class UserCreationFormTest(TestDataMixin, TestCase):
  
     def test_user_already_exists(self):
+        # The username already exist
         data = {
             'username': 'testuser',
             'password1': 'test1234',
@@ -45,6 +46,7 @@ class UserCreationFormTest(TestDataMixin, TestCase):
                         [str(User._meta.get_field('username').error_messages['unique'])])
  
     def test_invalid_user1(self):
+        # The username contains punctuation
         """
         invalid if user name contains punctuation
         """
@@ -59,6 +61,7 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         self.assertEqual(form["username"].errors, [str(validator.message)])
 
     def test_invalid_user2(self):
+        # The username contains punctuation
         """
         invalid if user name contains punctuation
         """
@@ -74,6 +77,9 @@ class UserCreationFormTest(TestDataMixin, TestCase):
 
     def test_password_verification(self):
         # The verification password is incorrect.
+        """
+        invalid if the verification password is incorrect.
+        """
         data = {
             'username': 'user',
             'password1': 'user123',
@@ -86,6 +92,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
 
 
     def test_valid_email_case1(self):
+        # The email is invalid: not ended with "case.edu"
+        """
+        invalid if the email is invalid
+        """
         data = {
             'username': 'user',
             'password1': 'testuser123',
@@ -96,6 +106,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         self.assertIn('Only @case.edu email addresses are allowed', form['email'].errors)
 
     def test_valid_email_case2(self):
+        # The email is invalid: not ended with "case.edu"
+        """
+        invalid if the email is invalid
+        """
         data = {
             'username': 'user',
             'password1': 'testuser123',
@@ -106,6 +120,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         self.assertIn('Only @case.edu email addresses are allowed', form['email'].errors)
 
     def test_common_password(self): 
+        # The password is too common 
+        """
+        invalid if the password is too common
+        """
         data = {
             'username': 'user',
             'password1': 'hello12345',
@@ -121,7 +139,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
 
 
     def test_both_passwords(self):
-        # One (or both) passwords weren't given
+        # One or both passwords weren not given
+        """
+        invalid if one or both passwords were not given
+        """
         data = {'username': 'anaUser'}
         form = NewUserForm(data)
         required_error = [str(Field.default_error_messages['required'])]
@@ -137,6 +158,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
 
 
     def test_validate_password_length(self):
+        # The password is too short
+        """
+        invalid if the password is too short
+        """
         data = {
             'username': 'testuser',
             'password1': 'welwel',
@@ -151,6 +176,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         )
 
     def test_validates_password_common_and_short(self):
+        # The password is too short and too common
+        """
+        invalid if the password is too short and too common
+        """
         data = {
             'username': 'testuse',
             'password1': 'asdf',
@@ -166,6 +195,10 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         )
 
     def test_validates_password_similar_and_short(self):
+        # The password is too short and too similar to username
+        """
+        invalid if the password is too short and too similar to username
+        """
         data = {
             'username': 'testuse',
             'password1': 'testuse',
@@ -180,23 +213,29 @@ class UserCreationFormTest(TestDataMixin, TestCase):
             form['password2'].errors
         )
 
-    def test_normal_register(self): 
+    def test_success_register(self): 
+        # Success case
+        """
+        valid if register is success
+        """
         data = {
-            'username': 'testuser',
-            'password1': 'hello123456',
-            'password2': 'hello123456',
-            'email': 'hello@case.edu'
+            'username': '393testUser',
+            'password1': 'testpassword',
+            'password2': 'testpassword',
+            'email': 'testuser@case.edu'
         }
         form = NewUserForm(data)
-        response = self.client.post('/home/')
-        messages = list(response.context['messages'])
-        self.assertEqual(len(messages), 1)
-        self.assertEqual(str(messages[0]), 'Registration successful.')
+        self.assertTrue(form.is_valid())
+        self.assertEqual(form.non_field_errors(), [])
+
+
 
 class UserSigninTest(TestDataMixin, TestCase):
     def test_invalid_username(self):
         # The user submits an invalid username.
-
+        """
+        invalid if the username is invalid
+        """
         data = {
             'username': 'userNotExists',
             'password': 'testuser',
@@ -211,19 +250,21 @@ class UserSigninTest(TestDataMixin, TestCase):
             ]
         )
 
-    def test_normal_login(self): 
+    def test_success_login(self):
+        # The success login case
         data = {
             'username': 'testuser',
-            'password1': 'mytestpassword',
+            'password': 'mytestpassword',
         }
         form = AuthenticationForm(None, data)
-        response = self.client.post('/')
-        messages = list(response.context['messages'])
-        self.assertEqual(len(messages), 1)
+        self.assertTrue(form.is_valid())
+        self.assertEqual(form.non_field_errors(), [])
 
-    def test_invalid_fassword(self):
+    def test_invalid_password(self):
         # The user submits an invalid password.
-
+        """
+        invalid if the password is invalid
+        """
         data = {
             'username': 'testuser',
             'password': 'usertest1234',
@@ -237,3 +278,4 @@ class UserSigninTest(TestDataMixin, TestCase):
                 }
             ]
         )
+
