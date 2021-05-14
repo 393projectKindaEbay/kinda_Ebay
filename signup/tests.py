@@ -228,6 +228,25 @@ class UserCreationFormTest(TestDataMixin, TestCase):
         self.assertTrue(form.is_valid())
         self.assertEqual(form.non_field_errors(), [])
 
+    def test_success_register_message(self): 
+        # Success case
+        """
+        valid if register is success
+        """
+        data = {
+            'username': '393testUser',
+            'password1': 'testpassword',
+            'password2': 'testpassword',
+            'email': 'testuser@case.edu'
+        }
+        form = NewUserForm(data)
+        self.assertTrue(form.is_valid())
+        self.assertEqual(form.non_field_errors(), [])
+        response = self.client.post('/home/')
+        messages = list(response.context['messages'])
+        self.assertEqual(len(messages), 1)
+        self.assertEqual(str(messages[0]), 'Registration successful.')
+
 
 
 class UserSigninTest(TestDataMixin, TestCase):
