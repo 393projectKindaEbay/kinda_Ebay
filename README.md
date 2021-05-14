@@ -19,21 +19,17 @@ CONTENTS OF THIS FILE
 #INSTALLATION
 -----------------
 *Our website does not require the user to download any application to their computer or cellphone. The user could access our website 
- by typing the web address in their internet browser: https://393.yike-cited.com/login/ 
-*There is no additional requirement for your computer or cellphone to access our website.
+ by typing the web address in their internet browser: https://393.yike-cited.com/login/ There is no additional requirement for your computer or cellphone to access our website.
 
 
 #GENERAL GUIDE
 -------------------
-*The(   )file contains our code for the website.
-*The(   )file contains our code for the unit test.
-*The(   )file contains our data used for the project.
+*The(   )file contains our code for the website. The(   )file contains our code for the unit test. The(   )file contains our data used for the project.
 
 
 #MAINTAINERS & DEVELOPERS
 ----------------------------------
-*The website CWRU CampusTrade is maintained and developed by Group 9 of CSDS393.
-*If there is any concerns or problems please contact our team members for further help.
+*The website CWRU CampusTrade is maintained and developed by Group 9 of CSDS393. If there is any concerns or problems please contact our team members for further help.
 
 
 #ACKNOWLEDGMENT & CREDITS
