@@ -24,7 +24,7 @@ CONTENTS OF THIS FILE
 
 #GENERAL GUIDE
 -------------------
-*The kinda_Ebay-main.zip contains our code for the website. The products/tests.py and signup/tests.py contain our code for the unit test and Test Coverage Report.pdf contains the test coverage report. The(   )file contains our data used for the project.
+*The kinda_Ebay-main.zip contains our code for the website. The products/tests.py and signup/tests.py contain our code for the unit test and Test Coverage Report.pdf contains the test coverage report. The ```db.sqlite3```file contains our data used for the project.
 
 
 #MAINTAINERS & DEVELOPERS
