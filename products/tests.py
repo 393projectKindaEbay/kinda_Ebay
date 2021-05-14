@@ -36,7 +36,7 @@ class productTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form['title'].errors), 1)
         self.assertIn(
-            'This title is too long. It must contain at most 120 characters.',
+            'Ensure this value has at most 120 characters (it has 159).',
             form['title'].errors
         )
 
@@ -44,7 +44,7 @@ class productTest(TestCase):
         data = {
             'title': 'This is a title',
             'description': 'Second-hand TV',
-            'price' : '999999.99',
+            'price' : '999999999.99',
             'summary':'Second-hand TV',
             'category':'1',
             'label':'1',
@@ -54,7 +54,7 @@ class productTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form['price'].errors), 1)
         self.assertIn(
-            'This price can not be larger than 10000',
+            'Ensure that there are no more than 10 digits in total.',
             form['price'].errors
         )
 
@@ -72,7 +72,7 @@ class productTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form['price'].errors), 1)
         self.assertIn(
-            'This price must have less than 2 decimal places',
+            'Ensure that there are no more than 2 decimal places.',
             form['price'].errors
         )
 
@@ -90,7 +90,7 @@ class productTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form['label'].errors), 1)
         self.assertIn(
-            'There is no such label',
+            'Select a valid choice. 5 is not one of the available choices.',
             form['label'].errors
         )
 
@@ -108,7 +108,7 @@ class productTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form['category'].errors), 1)
         self.assertIn(
-            'There is no such category',
+            'Select a valid choice. 5 is not one of the available choices.',
             form['category'].errors
         )
     
