@@ -35,11 +35,8 @@ CONTENTS OF THIS FILE
 #ACKNOWLEDGMENT & CREDITS
 ------------------------------------
 *We was using couple of third-party libraries and classes to elaborate our project CWRU CampusTrade. We really appreciate the work by the developers
- and their efforts to create such useful modules. 
-*For main page, detail page and html template, we use the e-commerce template by MDB Bootstrap.
- Here is the link for the template: https://mdbootstrap.com/freebies/jquery/e-commerce/
-*For the Login system, we use the crisp form we reached from Github to achieve that. 
- Here is the link for the template: https://github.com/django-crispy-forms/django-crispy-forms
-*For the Chat system, we use the djange_private_chat we reached from Github to achieve the function.
+ and their efforts to create such useful modules. For main page, detail page and html template, we use the e-commerce template by MDB Bootstrap.
+ Here is the link for the template: https://mdbootstrap.com/freebies/jquery/e-commerce/ For the Login system, we use the crisp form we reached from Github to achieve that. 
+ Here is the link for the template: https://github.com/django-crispy-forms/django-crispy-forms For the Chat system, we use the djange_private_chat we reached from Github to achieve the function.
  Here is the link for the template: https://github.com/Bearle/django-private-chat
 
